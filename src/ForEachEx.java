@@ -41,13 +41,29 @@ public class ForEachEx {
 //        for(int i = 1, j = 3; i < 5 & j > 0; i++, j--){
 //            System.out.println("i = " + i + ", j = " + j);
 //        }
-        int suma = 0;
+//        int suma = 0;
+//        String[] luni = {
+//                "ianuarie", "februarie", "martie", "aprilie",
+//                "mai", "iunie", "iulie", "august",
+//                "septembrie", "octombrie", "noiembrie", "decembrie"
+//        };
+//
+
+//        for(int i = 0; i < 12; i++){
+//            int sumaLuna = input.nextInt();
+//            suma += sumaLuna;
+//        }
+//        System.out.println(suma);
+//        for(int i = 1; i <=10; i++){
+//            System.out.println(i*i);
+//        }
         Scanner input = new Scanner(System.in);
-        for(int i = 0; i < 12; i++){
-            int sumaLuna = input.nextInt();
-            suma += sumaLuna;
-        }
-        System.out.println(suma);
+
+        int numar = input.nextInt();
+
+        for(int i = 1; i <= numar; i++)
+            System.out.println(i*i);
+
     }
 
 }
